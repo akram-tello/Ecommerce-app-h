@@ -42,7 +42,7 @@
 										<input type="password" class="form-control" name="password" id="password" required/>
 										<p><br/></p>
 										<input type="submit" class="btn btn-warning" value="Login">
-										<a href="customer_registration.php?register=1" style="color:white; text-decoration:none;">Create Account Now</a>
+										<a href="../../pages/registration_form.php?register=1" style="color:white; text-decoration:none;">Create Account Now</a>
 									</form>
 								</div>
 								<div class="panel-footer" id="e_msg"></div>
