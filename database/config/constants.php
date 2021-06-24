@@ -3,7 +3,9 @@
 define('HOST', 'localhost');
 define('USER', 'root');
 define('PASSWORD', '');
-define('DATABASE_NAME', 'e-book');
+define('DATABASE_NAME', 'ecommerceapp');
 define('CURRENCY', 'RM');
+
+
 
 ?>
