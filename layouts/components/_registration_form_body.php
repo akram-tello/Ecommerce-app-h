@@ -64,12 +64,6 @@
                             <input type="text" id="address1" name="address1"class="form-control" required>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <label for="address2">Address 2</label>
-                            <input type="text" id="address2" name="address2"class="form-control" required>
-                        </div>
-                    </div>
                     <p><br/></p>
                     <div class="row">
                         <div class="col-md-12">
