@@ -27,7 +27,7 @@ if(isset($_POST["get_seleted_Category"]) || isset($_POST["get_selected_type_of_b
                         <div class='panel-body'>
                             <img src='assets/img/product_images/$pro_image' style='width:220px; height:250px;'/>
                         </div>
-                        <div class='panel-heading' style='background-color: #293B5F !important;'>Rs.$pro_price.00/-
+                        <div class='panel-heading' style='background-color: #293B5F !important;'>RM.$pro_price.00/-
                             <button pid='$pro_id' style='float:right;' id='product' class='btn btn-danger btn-xs'>Add To Cart</button>
                         </div>
                     </div>
