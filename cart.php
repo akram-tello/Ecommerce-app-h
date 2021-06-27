@@ -20,20 +20,4 @@ include ('layouts/components/_cart_body.php');
 <?php
 // include Footer.php file
 include ('layouts/common/Footer.php');
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
+?>	
