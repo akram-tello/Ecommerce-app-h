@@ -24,11 +24,11 @@ if(isset($_POST["getProduct"])){
 			echo "
 				<div class='col-md-4'>
 					<div class='panel panel-info'>
-						<div class='panel-heading'>$pro_title</div>
+						<div class='panel-heading' style='background-color: #293B5F !important;' style='background-color: #293B5F !important;'>$pro_title</div>
 						<div class='panel-body'>
 							<img src='assets/img/product_images/$pro_image' style='width:220px; height:250px;'/>
 						</div>
-						<div class='panel-heading'>".CURRENCY.". $pro_price.00/-
+						<div class='panel-heading' style='background-color: #293B5F !important;'>".CURRENCY.". $pro_price.00/-
 							<button pid='$pro_id' style='float:right;' id='product' class='btn btn-danger btn-xs'>Add To Cart</button>
 						</div>
 					</div>

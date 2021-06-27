@@ -20,7 +20,7 @@
 			<div class="col-md-2"></div>
 			<div class="col-md-8">
 				<div class="panel panel-primary">
-					<div class="panel-heading">Cart Checkout</div>
+					<div class="panel-heading" style="background-color: #293B5F !important;">Cart Checkout</div>
 					<div class="panel-body">
 						<div class="row">
 							<div class="col-md-2 col-xs-2"><b>Action</b></div>

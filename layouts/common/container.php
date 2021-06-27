@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="panel panel-info">
-                <div class="panel-heading">Products</div>
+                <div class="panel-heading" style="background-color: #293B5F !important;">Products</div>
                 <div class="panel-body">
                     <div id="get_product">
                         <!--Here we get product jquery Ajax Request-->
