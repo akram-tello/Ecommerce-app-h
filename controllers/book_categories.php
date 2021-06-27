@@ -24,6 +24,6 @@ if(isset($_POST["category"])){
 }
 
 // include fetch_products.php file
-include ('fetch_products.php');
+include ('_fetch_products.php');
 		
 ?>

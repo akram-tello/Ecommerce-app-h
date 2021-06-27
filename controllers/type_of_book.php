@@ -25,7 +25,7 @@ if(isset($_POST["type_of_book"])){
 
 
 // include fetch_products.php file
-include ('fetch_products.php');
+include ('_fetch_products.php');
 
 
 ?>
