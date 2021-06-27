@@ -60,8 +60,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <label for="address1">Address 1</label>
-                            <input type="text" id="address1" name="address1"class="form-control" required>
+                            <label for="address">Address 1</label>
+                            <input type="text" id="address" name="address"class="form-control" required>
                         </div>
                     </div>
                     <p><br/></p>

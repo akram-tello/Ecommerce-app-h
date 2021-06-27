@@ -11,13 +11,13 @@ if (isset($_POST["f_name"])) {
 	$password = $_POST['password'];
 	$repassword = $_POST['repassword'];
 	$mobile = $_POST['mobile'];
-	$address1 = $_POST['address1'];
+	$address = $_POST['address'];
 	$name = "/^[a-zA-Z ]+$/";
 	$emailValidation = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9]+(\.[a-z]{2,4})$/";
 	$number = "/^[0-9]+$/";
 
 if(empty($f_name) || empty($l_name) || empty($email) || empty($password) || empty($repassword) ||
-	empty($mobile) || empty($address1)){
+	empty($mobile) || empty($address)){
 		
 		echo "
 			<div class='alert alert-warning'>
@@ -113,9 +113,9 @@ if(empty($f_name) || empty($l_name) || empty($email) || empty($password) || empt
 		$password = md5($password);
 		$sql = "INSERT INTO `user_info` 
 		(`user_id`, `first_name`, `last_name`, `email`, 
-		`password`, `mobile`, `address1`) 
+		`password`, `mobile`, `address`) 
 		VALUES (NULL, '$f_name', '$l_name', '$email', 
-		'$password', '$mobile', '$address1')";
+		'$password', '$mobile', '$address')";
 		$run_query = mysqli_query($con,$sql);
 		$_SESSION["uid"] = mysqli_insert_id($con);
 		$_SESSION["name"] = $f_name;
