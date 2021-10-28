@@ -11,4 +11,4 @@ Facilitating the users to purchase various new published books online, our team 
 **Project Folder should not be changed from "Ecommerce-app-h" to others
 without making changes in the code**
 
-* http://e-book.great-site.net/
+* https://e-commerce-book.herokuapp.com/
